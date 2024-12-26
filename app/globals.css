@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.date-time-container {
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #606060;
+  }
+  
+  .body{
+    font-family: 'Quicksand' , sans-serif;
+  }
+  .calendar-icon {
+    margin-right: 12px; /* Add space between icon and text */
+    font-size: 18px;
+  }
+  
+  .date-time-text {
+    font-weight: 600;
+    word-spacing: 1px; /* Add space between words in the text */
+  }
